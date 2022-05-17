@@ -33,7 +33,7 @@ connection.once("open", () => {
 })
 
 app.route('/').get((req, res) => {
-    res.send('Maintenance Module');
+    res.send('Hello SLIIT from Docker');
 });
 
 app.listen(PORT, () => {
